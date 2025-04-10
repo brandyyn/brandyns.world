@@ -19,6 +19,7 @@ public class brandynsworld {
     public static final Logger LOG = LogManager.getLogger();
     public static Item axolotl_bucket;
     public static Item banana;
+    public static Item poptart;
 
     @SidedProxy(clientSide = "world.brandyns.brandynsworld.ClientProxy", serverSide = "world.brandyns.brandynsworld.CommonProxy")
     public static CommonProxy proxy;
@@ -33,6 +34,10 @@ public class brandynsworld {
 
         banana = new banana().setUnlocalizedName("banana").setTextureName("brandynsworld:banana");
         GameRegistry.registerItem(banana, banana.getUnlocalizedName().substring(5));
+
+        poptart = new poptart().setUnlocalizedName("poptart").setTextureName("brandynsworld:poptart");
+        GameRegistry.registerItem(poptart, poptart.getUnlocalizedName().substring(5));
+
     }
 
     @Mod.EventHandler
