@@ -1,0 +1,21 @@
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "A mod that adds fiendish friends and cute critters to build a world inside of Void's Rift",
+		"version": "1.0",
+		"mcversion": "${minecraftVersion}",
+		"url": "brandyns.world",
+		"updateUrl": "",
+		"authorList": ["brandyn"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}
